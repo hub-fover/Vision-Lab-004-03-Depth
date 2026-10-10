@@ -1,0 +1,2 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';import {createHash} from 'node:crypto';
+test('independent website assets match release manifest',async()=>{const m=JSON.parse(await readFile(new URL('../integrity.json',import.meta.url)));for(const f of m.files){assert.ok(!f.path.includes('..'));const b=await readFile(new URL('../'+f.path,import.meta.url));assert.equal(b.length,f.bytes,f.path);assert.equal(createHash('sha256').update(b).digest('hex'),f.sha256,f.path)}});

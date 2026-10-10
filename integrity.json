@@ -1,0 +1,195 @@
+{
+  "repository": "Vision-Lab-004-03-Depth",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "assets/samples/indoor.jpg",
+      "bytes": 244943,
+      "sha256": "a6f25f63d8e4602ea6b96d4f70bcc4b01dce992edd0648071491307be2b04ef5"
+    },
+    {
+      "path": "assets/samples/manifest.json",
+      "bytes": 2068,
+      "sha256": "fa6ade6935b239a71f92a1c67f22002ef61916ac80247fe2bd911aede4397e63"
+    },
+    {
+      "path": "assets/samples/person.jpg",
+      "bytes": 370207,
+      "sha256": "7e3ac8c23ca4566afc12cefccf42c4d836440be4e1c5bbf558aecb53bd3940bf"
+    },
+    {
+      "path": "assets/samples/SOURCES.md",
+      "bytes": 1436,
+      "sha256": "cd0beb9108fef327282fb8292c258d5aea71d287302fa364e0a9c7d000fce048"
+    },
+    {
+      "path": "assets/samples/street.jpg",
+      "bytes": 340659,
+      "sha256": "0359f8f9876dac233f7985d88890e2dcd1a6626c223517744e1c26dfd65125b3"
+    },
+    {
+      "path": "config.js",
+      "bytes": 143,
+      "sha256": "150496b403372566e19f9f7ce06257bd718c4247ed9f1e5e3520f6ffe29989b4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 9018,
+      "sha256": "edf9a6e86156731a94e59d974216c1b440d42f198fa83250355dbedbc6b44b28"
+    },
+    {
+      "path": "js/app.js",
+      "bytes": 12812,
+      "sha256": "bf114b5b23cf3edd052b2c652c5df3f983cf12188886adca9bb57dcb8e323ce7"
+    },
+    {
+      "path": "js/canvas-renderer.js",
+      "bytes": 1175,
+      "sha256": "954abff9208acb2b1e94c3a26154d8318fc5e639eba04d9c217e56e26e6a25e9"
+    },
+    {
+      "path": "js/depth-engine.js",
+      "bytes": 3485,
+      "sha256": "ae18c069e0c29bda2ca70179ddfbc4a2d4bfdd06e662fe0c92afc8887c3a6502"
+    },
+    {
+      "path": "js/depth-utils.js",
+      "bytes": 3251,
+      "sha256": "84a653d039d9e180175becac5d59992947ed7a9f1abe49a4c184ca500d644c21"
+    },
+    {
+      "path": "js/depth.worker.js",
+      "bytes": 1081,
+      "sha256": "dbf5a254e764c61dfbf0417f3581e7afc3a0d220a7953a7f1d5fcf92a3fcd053"
+    },
+    {
+      "path": "js/image-utils.js",
+      "bytes": 2573,
+      "sha256": "3ea573f896305ce2076212762d462d4dbd26a05f4c61e13abf93c1c3aa0361a0"
+    },
+    {
+      "path": "js/independent-example.js",
+      "bytes": 123,
+      "sha256": "deb57cb893c5343c8a6e0486bf8bea9ac71ce68eca3d4f9299f089247c84dd76"
+    },
+    {
+      "path": "js/metric-api.js",
+      "bytes": 2212,
+      "sha256": "fa3765a831935c0a03511108611a1c8baa0f91de324a5e85f197f20e1f72dd7d"
+    },
+    {
+      "path": "js/model-config.js",
+      "bytes": 1045,
+      "sha256": "d55cb0cafaf02a15f3a520ab7c79ba13bd3b2f5a3ebb58e9024fea0aadd7d32d"
+    },
+    {
+      "path": "js/share-card.js",
+      "bytes": 4799,
+      "sha256": "397d80da44bfe1f1a26a63cf6c8f6faca1a3337812df5759b1ad7cb288e38fda"
+    },
+    {
+      "path": "js/ui-state.js",
+      "bytes": 601,
+      "sha256": "b38c214d938ca3e64b9210c340a4b3b9b78cef5a561deb676db9e7073f7fa84c"
+    },
+    {
+      "path": "js/worker-controller.js",
+      "bytes": 1766,
+      "sha256": "2eed86791266b7ec38f2a45c4290620ce28a108bd6845d7e3c4a980f427c17aa"
+    },
+    {
+      "path": "js/worker-core.js",
+      "bytes": 1384,
+      "sha256": "a95d1ec411deca6704e3157fde1966e60de78519ff3925f002140ede8d15cf3b"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1090,
+      "sha256": "1e930d73a87111305331d74268c2d405e2a3553eb79a6d6de67d0607e355c853"
+    },
+    {
+      "path": "LICENSES.md",
+      "bytes": 587,
+      "sha256": "080c3aab869740e81da0cc601f2bf6d2ece41cfeb150e9e1a2c4b51d2612e207"
+    },
+    {
+      "path": "README.md",
+      "bytes": 999,
+      "sha256": "390a3519c979a7840521aa31b0fa369fbbe6acd99448e2d7f2aa130791cebe5f"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 11907,
+      "sha256": "4371474b9cf3340f303232a5b5b5d83e2c8787b4a7b66a59726ba7e5788ce3c1"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 823,
+      "sha256": "f35ab7275be075617a1c848289543a667244bc9127fa8bd28245c02e3e70dcdf"
+    },
+    {
+      "path": "vendor/licenses/lucide.txt",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "vendor/licenses/onnxruntime-web.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "vendor/licenses/qrcode.txt",
+      "bytes": 1076,
+      "sha256": "8df47c6ad9ac2c41eb9b2a72def9908959da0ede8dadd56c7b249c1bdb0c5ce6"
+    },
+    {
+      "path": "vendor/licenses/transformers.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "vendor/lucide.min.js",
+      "bytes": 438648,
+      "sha256": "1876a30f8dd16a23af5ee36d503460202b35af298973e28e194014b79c51fb13"
+    },
+    {
+      "path": "vendor/manifest.json",
+      "bytes": 2098,
+      "sha256": "4cd4d91aaf57bf2884d35def4465d7af469abeb9be92af8395026b86ddb7ae8b"
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.asyncify.mjs",
+      "bytes": 47389,
+      "sha256": "5959c6733039619c9af710d8e1bae8d6e84402787990637be987c2b1bd6c5fa9"
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.asyncify.wasm",
+      "bytes": 23567050,
+      "sha256": "e0c0c6d3e73d43b8a249972f8358f845b08cc16fec3c80efafdf8bed40366786"
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.mjs",
+      "bytes": 24180,
+      "sha256": "5f2cd914554830762579c372d0211614c1e3f40ab3f6c0cfcf0900343229071d"
+    },
+    {
+      "path": "vendor/ort-wasm-simd-threaded.wasm",
+      "bytes": 12942611,
+      "sha256": "f4f290847a4df02d0b93cdbf39b4b0e71acefbe80573e7e6b9342a7abd7b290a"
+    },
+    {
+      "path": "vendor/qrcode.min.js",
+      "bytes": 24336,
+      "sha256": "b054bbeb191ad4c130b53f534e2ebd18b805f903d8fb4b7f2b4ea5b25c27b5d6"
+    },
+    {
+      "path": "vendor/transformers.web.min.js",
+      "bytes": 516775,
+      "sha256": "a1f9d24d9999c1b8209e60cffa195eb099716a55f9f4e1b1fc58e59c7e3502b8"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "lab007.runtime.v1",
+  "packages": {
+    "transformers": "4.2.0",
+    "onnxruntimeWeb": "1.26.0-dev.20260416-b7804b056c",
+    "lucide": "1.45.0",
+    "qrcode": "1.5.4"
+  },
+  "files": [
+    {
+      "path": "licenses/lucide.txt",
+      "bytes": 3208,
+      "sha256": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "licenses/onnxruntime-web.txt",
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    {
+      "path": "licenses/qrcode.txt",
+      "bytes": 1076,
+      "sha256": "8df47c6ad9ac2c41eb9b2a72def9908959da0ede8dadd56c7b249c1bdb0c5ce6"
+    },
+    {
+      "path": "licenses/transformers.txt",
+      "bytes": 11358,
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "lucide.min.js",
+      "bytes": 438648,
+      "sha256": "1876a30f8dd16a23af5ee36d503460202b35af298973e28e194014b79c51fb13"
+    },
+    {
+      "path": "ort-wasm-simd-threaded.asyncify.mjs",
+      "bytes": 47389,
+      "sha256": "5959c6733039619c9af710d8e1bae8d6e84402787990637be987c2b1bd6c5fa9"
+    },
+    {
+      "path": "ort-wasm-simd-threaded.asyncify.wasm",
+      "bytes": 23567050,
+      "sha256": "e0c0c6d3e73d43b8a249972f8358f845b08cc16fec3c80efafdf8bed40366786"
+    },
+    {
+      "path": "ort-wasm-simd-threaded.mjs",
+      "bytes": 24180,
+      "sha256": "5f2cd914554830762579c372d0211614c1e3f40ab3f6c0cfcf0900343229071d"
+    },
+    {
+      "path": "ort-wasm-simd-threaded.wasm",
+      "bytes": 12942611,
+      "sha256": "f4f290847a4df02d0b93cdbf39b4b0e71acefbe80573e7e6b9342a7abd7b290a"
+    },
+    {
+      "path": "qrcode.min.js",
+      "bytes": 24336,
+      "sha256": "b054bbeb191ad4c130b53f534e2ebd18b805f903d8fb4b7f2b4ea5b25c27b5d6"
+    },
+    {
+      "path": "transformers.web.min.js",
+      "bytes": 516775,
+      "sha256": "a1f9d24d9999c1b8209e60cffa195eb099716a55f9f4e1b1fc58e59c7e3502b8"
+    }
+  ],
+  "normalization": "Upstream 32-character identifiers use equivalent Unicode escapes to avoid false positive secret detection."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "vision-lab-004-03-depth",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs"
+  }
+}
